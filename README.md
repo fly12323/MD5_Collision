@@ -1,5 +1,4 @@
 # MD5_Collision
-MD5碰撞
 ## 简介
 
 MD5 Collision Toolkit 是一个用于进行 MD5 碰撞查找和攻击的工具。它支持多种模式，包括单次 MD5 碰撞、两次 MD5 碰撞、拼接后缀的 MD5 碰撞、强碰撞以及 MD5 长度扩展攻击。
