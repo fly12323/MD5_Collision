@@ -38,7 +38,7 @@ def cmp_md5(substr, stop_event, str_len, start=0, size=20, is_double=False, suff
                 if is_double:
                     md5_second = hashlib.md5(value.encode('utf-8'))
                     if md5_second.hexdigest()[start: start+str_len] == substr:
-                        print(f"找到符合条件的字符串：{rnds} => {value} => {md5_second.hexdigest()}\n")
+                        print(f"找到符合条件的字符串：{rnds} => {value} => {md5_second.hexdigest()}")
                         stop_event.set()
                 else:
                     print(f"找到符合条件的字符串：{rnds} => {value}")
